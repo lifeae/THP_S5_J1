@@ -1,9 +1,15 @@
 <h1>Bienvenue <%=params['id']%> !</h1>
 <p>Ici c'est notre super site de potins, il est chouette, non ?</p>
-    <% @gossips.each do |g|%>
-      <%="Prénom : #{g.user.first_name}"%>
-      <br>
-      <%="Titre : #{g.title} "%>
-      <br>
-      <br>
-    <% end %>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <% @gossips.each do |g|%>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><%="#{g.title} "%></h5>
+        <p class="card-text"><%="#{g.user.first_name}"%></p>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
