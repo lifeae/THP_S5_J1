@@ -5,10 +5,10 @@
 ## Comment faire fonctionner ce bin's :
 * Ouvrir le terminal et se déplacer jusqu'à l'emplacement de ce dossier
 * Vérifie dans le gemfile que tu possède déjà la version de ruby et de toutes ses gems dont on va avoir besoin. Si certaines te manquent, tu les installes.
-* Faire un petit et mimi : `bundle install`,
-* Faire un `rails db:migrate`
-* Faire un `rails db:seed`
-* Faire un `rails server"
+* `bundle install`,
+* `rails db:migrate`
+* `rails db:seed`
+* `rails server`
 * Se promener dans l'arborescence (quelques exemples) :
  * http://localhost:3000/welcome/gentil%20et%20aimable%20correcteur
  * http://localhost:3000/team
