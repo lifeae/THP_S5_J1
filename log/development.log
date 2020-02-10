@@ -2595,3 +2595,345 @@ Processing by StaticController#contact as HTML
 Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:43:54 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:45:58 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:46:42 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:46:42 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:46:43 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:00 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:01 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:05 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:20 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:21 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:22 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:22 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:31 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:32 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:32 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:41 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:47:53 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:48:06 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:48:07 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:48:32 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:49:32 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:49:33 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:49:42 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:49:55 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (334.4ms)
+Completed 500 Internal Server Error in 339ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x00007f80e874af98>:0x00007f80e16d5e20>):
+    1: <p>BIENVENUE <%= puts "Yolooo #{id}" %> ! Ici c'est notre super site de potins, il est chouette, non ?</p>
+  
+app/views/dynamic/welcome.html.erb:1:in `_app_views_dynamic_welcome_html_erb__2851687268914149103_70095757316780'
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:50:13 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:50:15 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:50:29 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (369.7ms)
+Completed 500 Internal Server Error in 373ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x00007f80e874af98>:0x00007f80e0d3af50>):
+    1: <p>BIENVENUE <%= puts "Yolooo #{params[id]}" %> ! Ici c'est notre super site de potins, il est chouette, non ?</p>
+  
+app/views/dynamic/welcome.html.erb:1:in `_app_views_dynamic_welcome_html_erb__2851687268914149103_70095752299180'
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:50:37 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:50:55 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:51:10 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:51:56 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:53:12 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:53:41 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:53:47 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Romain" for 127.0.0.1 at 2020-02-10 12:53:48 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Romain"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Lifeae" for 127.0.0.1 at 2020-02-10 12:53:56 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Lifeae"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Lifeae" for 127.0.0.1 at 2020-02-10 12:54:00 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Lifeae"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/Lifeae" for 127.0.0.1 at 2020-02-10 12:54:09 +0100
+Processing by DynamicController#welcome as HTML
+  Parameters: {"id"=>"Lifeae"}
+  Rendering dynamic/welcome.html.erb within layouts/application
+  Rendered dynamic/welcome.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:54:15 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:54:16 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:54:17 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:54:17 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
