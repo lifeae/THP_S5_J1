@@ -1,6 +1,6 @@
 # The Gossip Project
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)   ![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 ## Comment faire fonctionner ce bin's :
 * Ouvrir le terminal et se déplacer jusqu'à l'emplacement de ce dossier
