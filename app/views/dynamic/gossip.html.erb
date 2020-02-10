@@ -1,0 +1,7 @@
+<h1>Gossip n°<%=params['id']%></h1>
+<h2>Auteur : <%="#{@gossips[params['id'].to_i].user.first_name}"%></h2>
+<h3>Titre : <%="#{@gossips[params['id'].to_i].title}"%></h3>
+<h4>Contenu : <%="#{@gossips[params['id'].to_i].content}"%></h4>
+<h6>Mis à jour : <%="#{@gossips[params['id'].to_i].updated_at}"%></h6>
+<br>
+<h4><%= link_to "Voir le profil de l'auteur", author_path %></h4>

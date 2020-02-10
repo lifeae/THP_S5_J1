@@ -1,0 +1,7 @@
+<h1>Auteur n°<%=params['id']%></h1>
+<h2>Prénom : <%="#{@users[params['id'].to_i].first_name}"%></h2>
+<h3>Nom : <%="#{@users[params['id'].to_i].last_name}"%></h3>
+<h4>Description : <%="#{@users[params['id'].to_i].description}"%></h4>
+<h6>Email : <%="#{@users[params['id'].to_i].email}"%></h6>
+<h6>Age : <%="#{@users[params['id'].to_i].age}"%></h6>
+<h6>Ville : <%="#{@users[params['id'].to_i].city.name}"%></h6>
