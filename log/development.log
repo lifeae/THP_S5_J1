@@ -1993,3 +1993,605 @@ Processing by StaticController#contact as HTML
 Completed 200 OK in 1740ms (Views: 1732.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:09:33 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/lifeae/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.1/lib/active_record/log_subscriber.rb:98
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 287ms (Views: 279.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:13:10 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:17:49 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:26: syntax error, unexpected '<', expecting ')'
+          </li>
+          ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: unknown regexp options - pa
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: syntax error, unexpected '<'
+...ass="sr-only">(current)</span></a>
+...                              ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:29: unknown regexp option - l
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+        </ul>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:33: unknown regexp options - btt
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+        </form>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:35: unknown regexp options - dv
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:36: syntax error, unexpected '<'
+    </nav>
+    ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:38: unknown regexp options - bdy
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+</html>
+^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:44: unterminated regexp meets end of file
+          end
+             ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:44: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:26: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:28: unknown regexp options - pa
+app/views/layouts/application.html.erb:28: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:29: unknown regexp option - l
+app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:33: unknown regexp options - btt
+app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:35: unknown regexp options - dv
+app/views/layouts/application.html.erb:36: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:38: unknown regexp options - bdy
+app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:44: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:44: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:19:08 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:25: syntax error, unexpected '<', expecting ')'
+          </li>
+          ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:27: unknown regexp options - pa
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+...ass="sr-only">(current)</span></a>
+...                              ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: unknown regexp option - l
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:29: syntax error, unexpected '<'
+        </ul>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:32: unknown regexp options - btt
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+        </form>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:34: unknown regexp options - dv
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:35: syntax error, unexpected '<'
+    </nav>
+    ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:37: unknown regexp options - bdy
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+</html>
+^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:43: unterminated regexp meets end of file
+          end
+             ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:27: unknown regexp options - pa
+app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:28: unknown regexp option - l
+app/views/layouts/application.html.erb:29: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:32: unknown regexp options - btt
+app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:34: unknown regexp options - dv
+app/views/layouts/application.html.erb:35: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:37: unknown regexp options - bdy
+app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:43: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:19:10 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:25: syntax error, unexpected '<', expecting ')'
+          </li>
+          ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:27: unknown regexp options - pa
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+...ass="sr-only">(current)</span></a>
+...                              ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: unknown regexp option - l
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:29: syntax error, unexpected '<'
+        </ul>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:32: unknown regexp options - btt
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+        </form>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:34: unknown regexp options - dv
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:35: syntax error, unexpected '<'
+    </nav>
+    ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:37: unknown regexp options - bdy
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+</html>
+^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:43: unterminated regexp meets end of file
+          end
+             ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:25: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:27: unknown regexp options - pa
+app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:28: unknown regexp option - l
+app/views/layouts/application.html.erb:29: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:32: unknown regexp options - btt
+app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:34: unknown regexp options - dv
+app/views/layouts/application.html.erb:35: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:37: unknown regexp options - bdy
+app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:43: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:19:53 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:26: syntax error, unexpected '<', expecting ')'
+          </li>
+          ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: unknown regexp options - pa
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:28: syntax error, unexpected '<'
+...ass="sr-only">(current)</span></a>
+...                              ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:29: unknown regexp option - l
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+        </ul>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:33: unknown regexp options - btt
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+        </form>
+        ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:35: unknown regexp options - dv
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:36: syntax error, unexpected '<'
+    </nav>
+    ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:38: unknown regexp options - bdy
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+</html>
+^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:44: unterminated regexp meets end of file
+          end
+             ^
+/home/lifeae/Dropbox/thehackingproject/S5/J1/the-gossip-project/app/views/layouts/application.html.erb:44: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:26: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:28: unknown regexp options - pa
+app/views/layouts/application.html.erb:28: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:29: unknown regexp option - l
+app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:33: unknown regexp options - btt
+app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:35: unknown regexp options - dv
+app/views/layouts/application.html.erb:36: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:38: unknown regexp options - bdy
+app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:44: unterminated regexp meets end of file
+app/views/layouts/application.html.erb:44: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:25:53 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:54 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:56 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:57 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:58 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:59 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:25:59 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:26:21 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:26:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:27:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:27:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:27:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:27:43 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/%3Ca%20href=" for 127.0.0.1 at 2020-02-10 12:27:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/%3Ca%20href="):
+  
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.2) lib/rack/method_override.rb:24:in `call'
+rack (2.1.2) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.2) lib/rack/sendfile.rb:113:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:27:48 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:27:52 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:27:53 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:28:35 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:28:36 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:29:19 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:29:21 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:29:54 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-10 12:29:57 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/lifeae/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/lifeae/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:30:01 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:35:55 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:36:28 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:37:00 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:37:03 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:37:04 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:37:05 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:37:06 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2020-02-10 12:37:06 +0100
+Processing by StaticController#team as HTML
+  Rendering static/team.html.erb within layouts/application
+  Rendered static/team.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:37:07 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2020-02-10 12:37:07 +0100
+Processing by StaticController#contact as HTML
+  Rendering static/contact.html.erb within layouts/application
+  Rendered static/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
